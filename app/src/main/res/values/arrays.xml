@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="added_states">
+        <item>Rejected</item>
+        <item>Pending</item>
+        <item>Accepted</item>
+    </string-array>
+</resources>

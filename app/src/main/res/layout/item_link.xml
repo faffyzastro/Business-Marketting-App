@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="2dp"
+    app:cardCornerRadius="2dp"
+    android:background="@android:color/transparent">
+    <LinearLayout
+        android:id="@+id/linearLayout_spelling_item"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView_item_link_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="http://www.link.com"
+                android:textIsSelectable="true" />
+            <TextView
+                android:id="@+id/textView_item__link_store"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Jumia"
+                android:textColor="@color/colorPrimary"
+                android:textIsSelectable="true" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
